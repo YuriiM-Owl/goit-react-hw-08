@@ -6,9 +6,9 @@ import { fetchContacts, deleteContact } from "../../redux/contacts/operations";
 
 import {
   selectFilteredContacts,
-  selectContactsLoading,
-  selectContactsError,
-} from "../../redux/contacts/slice";
+  selectLoading as selectContactsLoading,
+  selectError as selectContactsError,
+} from "../../redux/contacts/selectors";
 
 import { selectIsLoggedIn } from "../../redux/auth/selectors";
 
